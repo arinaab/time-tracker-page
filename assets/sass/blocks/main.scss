@@ -1,0 +1,15 @@
+.dashboard {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__wrapper {
+    width: 80%;
+    min-height: 800px;
+    background-color: #fff;
+  }
+}

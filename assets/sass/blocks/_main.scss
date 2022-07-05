@@ -1,0 +1,19 @@
+.dashboard {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+  &__wrapper {
+    min-height: 600px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 210px);
+    grid-template-rows: repeat(2, 210px);
+    gap: 25px;
+  }
+}
